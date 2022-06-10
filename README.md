@@ -4,19 +4,12 @@
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/especializati/setup-docker-laravel.git laravel9
+git clone https://github.com/AllanRanier/docker-laravel-9
 ```
 
 ```sh
 cd laravel9/
 ```
-
-
-Alterne para a branch laravel 8.x
-```sh
-git checkout laravel-9-com-php-8
-```
-
 
 Remova o versionamento
 ```sh
@@ -34,7 +27,7 @@ cp .env.example .env
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
 APP_NAME=
-APP_URL=http://localhost:8180
+APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
 DB_HOST=mysql
@@ -78,4 +71,4 @@ php artisan key:generate
 
 
 Acesse o projeto
-[http://localhost:8180](http://localhost:8180)
+[http://localhost:8989](http://localhost:8989)
